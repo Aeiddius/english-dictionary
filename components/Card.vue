@@ -134,5 +134,19 @@
     }
   }
 
+  @media screen and (max-width: 600px) {
+    .card {
+      width: 100% !important;
+    }
+    .searchbar {
+      width: 100%;
+    }
+  }
 
+  @media screen and (max-width: 400px) {
+    .card {
+      padding: 30px;
+      padding-top: 40px;
+    }
+  }
 </style>
