@@ -15,5 +15,13 @@ export default defineNuxtConfig({
       },
     },
   },
+  app: {
+    head: {
+      title: "English Dictionary",
+      charset: 'utf-8',
+      viewport: 'width=device-width, initial-scale=1',
 
+    },
+
+  },
 })
