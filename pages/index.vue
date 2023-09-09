@@ -8,13 +8,17 @@
 
   <div class="menu">
     <Button content="About" @click="openAbout"/>
-    <Button content="Github"/>
+    <Button content="Github" @click="openGithub"/>
   </div>
 </template>
 
 <script setup>
   const openAbout = () => {
     document.getElementById("modalbox").classList.remove("hide-modal")
+  }
+
+  const openGithub = () => {
+    window.open('https://github.com/Aeiddius/english-dictionary', '_blank').focus()
   }
 </script>
 
