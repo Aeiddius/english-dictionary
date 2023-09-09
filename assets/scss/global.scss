@@ -1,0 +1,39 @@
+@import 'reset';
+@import 'font';
+@import 'utility';
+
+* {
+  color: $dark;
+  font-family: Alata !important;
+}
+
+*, html {
+  scroll-behavior: smooth !important;
+}
+
+html, body { 
+  height: 100%;
+  width: 100vw;
+}
+
+
+
+.flex {
+  display: flex;
+}
+
+.flex-c {
+  flex-direction: column;
+}
+
+.align-baseline {
+  align-items: baseline;
+}
+
+.gap-10 {
+  gap: 10px;
+}
+
+.hide-modal {
+  display: none !important;
+}
