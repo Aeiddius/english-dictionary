@@ -10,15 +10,12 @@
   const content = ref()
 
   const run = async () => {
-    const query = document.getElementById("inputbox").value.trim()
+    const query = document.getElementById("inputbox").value.trim().replace(/\+/g, " ")
     setquery(query)
     if (query == "") {
       hide()
       return
     }
-
-    
-
     const { data: result} = await useFetch(`https://api.dictionaryapi.dev/api/v2/entries/en/${query}`)
     if (result.value == null) {
       hide()
@@ -52,7 +49,6 @@
   }
   
   const setquery = (query) => {
-    
     const url = new URL(window.location);  
     url.searchParams.set("q", query);
     
