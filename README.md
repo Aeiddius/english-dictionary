@@ -1,6 +1,6 @@
 # English Dictionary
 
-<img src="docs/nuxt.png" width=50% height=50%>
+<img src="docs/nuxt.png" width=20% height=20%>
 
 A minimal and static site made with Nuxt 3 and the [Free Dictionary API](https://dictionaryapi.dev/).
 
