@@ -4,7 +4,7 @@
       <div v-if="mode == 'about'">
         <button @click="close">✖</button>
         <h1>About</h1>
-        <p>This is an English Dictionary website built by Aeiddius as a side-project built on top of the <a href="https://dictionaryapi.dev/" target="_blank">Wikitionary api</a>.</p>
+        <p>This is an English Dictionary website built by Aeiddius as a side-project built on top of the <a href="https://dictionaryapi.dev/" target="_blank">Free Dictionary API</a>.</p>
         
       </div>
     </div>

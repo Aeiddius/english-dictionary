@@ -1,63 +1,13 @@
-# Nuxt 3 Minimal Starter
+# English Dictionary
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+![](docs/nuxt.png =100x100)
 
-## Setup
+A minimal and static site made with Nuxt 3 and the [Free Dictionary API](https://dictionaryapi.dev/).
 
-Make sure to install the dependencies:
+It features a **Sleek** and **Clean** minimalist design that lets you focus on reading the english definitions.
 
-```bash
-# npm
-npm install
+Website can be accessed [here](https://aeiddius-english.vercel.app/).
 
-# pnpm
-pnpm install
+## Demo
 
-# yarn
-yarn install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm run dev
-
-# yarn
-yarn dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+![demo](docs/demo.gif)
